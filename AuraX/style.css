@@ -1,8 +1,25 @@
 body{
     color: rgb(230 230 230);
     background: rgb(170, 100, 255);
+    margin: 0px;
+    font-family:"Lexend", sans-serif;
 }
 
 header{
     border:solid 2px rgb(50, 22, 122);
+    padding: 20px;
+    font-size: 35;
+    color: rgb(50, 22, 122)
+}
+
+section {
+    background: rgb(170, 100, 255);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
 }
