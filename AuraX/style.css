@@ -2,17 +2,17 @@ body{
     color: rgb(230 230 230);
     background: rgb(170, 100, 255);
     margin: 0px;
+    margin-bottom: 100px;
     font-family:"Lexend", sans-serif;
 }
 
 header{
-    border:solid 2px rgb(50, 22, 122);
     padding: 20px;
-    font-size: 35;
+    font-size: 50;
     color: rgb(50, 22, 122)
 }
 
-section {
+.chamada-principal{
     background:rgb(170, 100, 255);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -21,7 +21,7 @@ section {
 }
 
 .chamada-texto{
-    margin-right: 5%;
+    margin-right: 20px;
 }
 
 h1 {
@@ -40,4 +40,23 @@ img{
     display:flex;
 overflow-x:auto;
 gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity:0.5;
+}
+
+.categoria-videos img:hover {
+    opacity:1.0;
+    border: 2px solid white;
+}
+
+.categoria h2{
+    color: rgb(50, 22, 122)
 }
