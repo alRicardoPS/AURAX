@@ -1,19 +1,30 @@
 body{
     color: rgb(230 230 230);
-    background: rgb(170, 100, 255);
+    background: rgb(19,0,125);
+    background: linear-gradient(90deg, rgba(19,0,125,1) 0%, 
+    rgba(112,23,182,1) 24%, 
+    rgba(109,48,213,1) 40%, 
+    rgba(95,37,139,1) 66%, 
+    rgba(244,170,241,1) 100%);
     margin: 0px;
     margin-bottom: 100px;
     font-family:"Lexend", sans-serif;
+    margin-bottom: 100px;
 }
 
 header{
     padding: 20px;
     font-size: 50;
-    color: rgb(50, 22, 122)
+    color: white;
 }
 
-.chamada-principal{
-    background:rgb(170, 100, 255);
+.chamada{
+    background: rgb(19,0,125);
+    background: linear-gradient(90deg, rgba(19,0,125,1) 0%, 
+    rgba(112,23,182,1) 24%, 
+    rgba(109,48,213,1) 40%, 
+    rgba(95,37,139,1) 66%, 
+    rgba(244,170,241,1) 100%);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -21,7 +32,7 @@ header{
 }
 
 .chamada-texto{
-    margin-right: 20px;
+    margin-right: 5%;
 }
 
 h1 {
@@ -50,6 +61,7 @@ gap: 10px;
 
 .categoria-videos img {
     opacity:0.5;
+    height: 200px;
 }
 
 .categoria-videos img:hover {
@@ -58,5 +70,5 @@ gap: 10px;
 }
 
 .categoria h2{
-    color: rgb(50, 22, 122)
+    color: rgb(255, 255, 255)
 }
